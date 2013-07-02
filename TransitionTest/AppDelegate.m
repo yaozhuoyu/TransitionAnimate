@@ -7,6 +7,10 @@
 //
 
 #import "AppDelegate.h"
+#import "FirstViewController.h"
+
+#import "Child.h"
+#import "Parent.h"
 
 @implementation AppDelegate
 
@@ -14,10 +18,19 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    
+    FirstViewController *firstCon = [[FirstViewController alloc] init];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:firstCon];
+    nav.delegate = self;
+    
+    self.transitionCon = [[MyTransitionController alloc] init];
+    
+    self.window.rootViewController = nav;
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
 }
+
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {
@@ -45,5 +58,18 @@
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
+
+
+#pragma navigationviewcontroller delegate
+
+- (id <UIViewControllerAnimatedTransitioning>)navigationController:(UINavigationController *)navigationController
+                                   animationControllerForOperation:(UINavigationControllerOperation)operation
+                                                fromViewController:(UIViewController *)fromVC
+                                                  toViewController:(UIViewController *)toVC
+{
+    self.transitionCon.navOp = operation;
+    return self.transitionCon;
+}
+
 
 @end

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B86855A177D562A004DD13D /* Parent.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B868559177D562A004DD13D /* Parent.m */; };
+		5B86855D177D563E004DD13D /* Child.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B86855C177D563E004DD13D /* Child.m */; };
 		5B92348B177C271F00352C34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B92348A177C271F00352C34 /* Foundation.framework */; };
 		5B92348D177C271F00352C34 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B92348C177C271F00352C34 /* CoreGraphics.framework */; };
 		5B92348F177C271F00352C34 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B92348E177C271F00352C34 /* UIKit.framework */; };
@@ -19,6 +21,11 @@
 		5B9234A6177C272000352C34 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B92348E177C271F00352C34 /* UIKit.framework */; };
 		5B9234AE177C272000352C34 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B9234AC177C272000352C34 /* InfoPlist.strings */; };
 		5B9234B0177C272000352C34 /* TransitionTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B9234AF177C272000352C34 /* TransitionTestTests.m */; };
+		5B9234BB177C276400352C34 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B9234BA177C276400352C34 /* FirstViewController.m */; };
+		5B9234BE177C277A00352C34 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B9234BD177C277A00352C34 /* SecondViewController.m */; };
+		5B9234C0177C2ABE00352C34 /* switch_place_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B9234BF177C2ABE00352C34 /* switch_place_bg@2x.png */; };
+		5B9234C3177C34F000352C34 /* MyTransitionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B9234C2177C34F000352C34 /* MyTransitionController.m */; };
+		5B9234C6177C370600352C34 /* PViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B9234C5177C370600352C34 /* PViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5B868558177D562A004DD13D /* Parent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Parent.h; sourceTree = "<group>"; };
+		5B868559177D562A004DD13D /* Parent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Parent.m; sourceTree = "<group>"; };
+		5B86855B177D563E004DD13D /* Child.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Child.h; sourceTree = "<group>"; };
+		5B86855C177D563E004DD13D /* Child.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Child.m; sourceTree = "<group>"; };
 		5B923487177C271F00352C34 /* TransitionTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TransitionTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B92348A177C271F00352C34 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5B92348C177C271F00352C34 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +59,15 @@
 		5B9234AB177C272000352C34 /* TransitionTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TransitionTestTests-Info.plist"; sourceTree = "<group>"; };
 		5B9234AD177C272000352C34 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5B9234AF177C272000352C34 /* TransitionTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransitionTestTests.m; sourceTree = "<group>"; };
+		5B9234B9177C276400352C34 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		5B9234BA177C276400352C34 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		5B9234BC177C277A00352C34 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		5B9234BD177C277A00352C34 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		5B9234BF177C2ABE00352C34 /* switch_place_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "switch_place_bg@2x.png"; sourceTree = "<group>"; };
+		5B9234C1177C34F000352C34 /* MyTransitionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTransitionController.h; sourceTree = "<group>"; };
+		5B9234C2177C34F000352C34 /* MyTransitionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTransitionController.m; sourceTree = "<group>"; };
+		5B9234C4177C370600352C34 /* PViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PViewController.h; sourceTree = "<group>"; };
+		5B9234C5177C370600352C34 /* PViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +131,18 @@
 				5B92349A177C272000352C34 /* AppDelegate.m */,
 				5B92349C177C272000352C34 /* Images.xcassets */,
 				5B923491177C271F00352C34 /* Supporting Files */,
+				5B9234B9177C276400352C34 /* FirstViewController.h */,
+				5B9234BA177C276400352C34 /* FirstViewController.m */,
+				5B9234BC177C277A00352C34 /* SecondViewController.h */,
+				5B9234BD177C277A00352C34 /* SecondViewController.m */,
+				5B9234C1177C34F000352C34 /* MyTransitionController.h */,
+				5B9234C2177C34F000352C34 /* MyTransitionController.m */,
+				5B9234C4177C370600352C34 /* PViewController.h */,
+				5B9234C5177C370600352C34 /* PViewController.m */,
+				5B868558177D562A004DD13D /* Parent.h */,
+				5B868559177D562A004DD13D /* Parent.m */,
+				5B86855B177D563E004DD13D /* Child.h */,
+				5B86855C177D563E004DD13D /* Child.m */,
 			);
 			path = TransitionTest;
 			sourceTree = "<group>";
@@ -118,6 +150,7 @@
 		5B923491177C271F00352C34 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5B9234BF177C2ABE00352C34 /* switch_place_bg@2x.png */,
 				5B923492177C271F00352C34 /* TransitionTest-Info.plist */,
 				5B923493177C271F00352C34 /* InfoPlist.strings */,
 				5B923496177C271F00352C34 /* main.m */,
@@ -221,6 +254,7 @@
 			files = (
 				5B923495177C271F00352C34 /* InfoPlist.strings in Resources */,
 				5B92349D177C272000352C34 /* Images.xcassets in Resources */,
+				5B9234C0177C2ABE00352C34 /* switch_place_bg@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,7 +273,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B86855A177D562A004DD13D /* Parent.m in Sources */,
+				5B9234BE177C277A00352C34 /* SecondViewController.m in Sources */,
+				5B9234C6177C370600352C34 /* PViewController.m in Sources */,
+				5B9234C3177C34F000352C34 /* MyTransitionController.m in Sources */,
 				5B92349B177C272000352C34 /* AppDelegate.m in Sources */,
+				5B9234BB177C276400352C34 /* FirstViewController.m in Sources */,
+				5B86855D177D563E004DD13D /* Child.m in Sources */,
 				5B923497177C271F00352C34 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -435,6 +475,7 @@
 				5B9234B5177C272000352C34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5B9234B6177C272000352C34 /* Build configuration list for PBXNativeTarget "TransitionTestTests" */ = {
 			isa = XCConfigurationList;
@@ -443,6 +484,7 @@
 				5B9234B8177C272000352C34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
